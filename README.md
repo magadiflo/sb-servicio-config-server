@@ -5,7 +5,7 @@ Sección 6: Spring Cloud Config Server: centralizando la configuración
 Por el momento, en la siguiente ruta almacenaremos nuestros archivos que estarán siendo manejados con git
 
 ```
-C:\config-server
+C:\config-repo
 ```
 Creamos el primer archivo para el servicio item
 

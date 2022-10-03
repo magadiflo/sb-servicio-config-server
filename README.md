@@ -25,3 +25,12 @@ con el puerto=8005.
 Si hay configuraciones que no están definidas en el servidor de configuraciones pero sí
 en el microservicio, se fusionarán; del mismo modo, si hay configuraciones en el servidor
 de configuraciones y no en el microservicios, también se fusionarán.
+
+# Generar el .jar del proyecto
+Ir a la ruta donde está este proyecto mediante cmd y ejecutar
+
+```
+mvnw.cmd clean package
+```
+
+**NOTA: ** Con package solo generamos el .jar, mientras que con install, no solo generamos el .jar sino que también lo publica en el repositorio local de maven
